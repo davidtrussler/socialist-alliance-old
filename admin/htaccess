@@ -1,0 +1,10 @@
+ErrorDocument 401 /home/futuragr/public_html/socialistalliance/admin/rejection.html
+AuthUserFile /home/futuragr/security/socialistalliance/.htpass
+AuthGroupFile /dev/null
+AuthName "Admin Area"
+AuthType Basic
+require valid-user
+
+php_value upload_max_filesize 10M
+php_value post_max_size 10M
+php_value memory_limit 80M

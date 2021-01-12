@@ -1,0 +1,27 @@
+// REPLACE MS WORD CHARACTERS	
+	$file = str_replace(chr(133), '&#8230;', $file);	// ellipsis
+	$file = str_replace(chr(145), "&#8216;", $file);	// left single quote
+	$file = str_replace(chr(146), "&#8217;", $file);	// right single quote
+	$file = str_replace(chr(147), '&#8220;', $file);	// left double quote
+	$file = str_replace(chr(148), '&#8221;', $file);	// right double quote
+	$file = str_replace(chr(149), '-', $file);			// bullet
+	$file = str_replace(chr(150), '&#8211;', $file);    // endash
+	$file = str_replace(chr(151), '&#8212;', $file);	// emdash
+	$file = str_replace(chr(167), '&#176;', $file);		// degrees
+//	$file = str_replace(chr(130), ',', $file);    // baseline single quote
+//	$file = str_replace(chr(131), 'NLG', $file);  // florin
+//	$file = str_replace(chr(132), '"', $file);    // baseline double quote
+//	$file = str_replace(chr(134), '**', $file);   // dagger (a second footnote)
+//	$file = str_replace(chr(135), '***', $file);  // double dagger (a third footnote)
+//	$file = str_replace(chr(136), '^', $file);    // circumflex accent
+//	$file = str_replace(chr(137), 'o/oo', $file); // permile
+//	$file = str_replace(chr(138), 'Sh', $file);   // S Hacek
+//	$file = str_replace(chr(139), '<', $file);    // left single guillemet
+//	$file = str_replace(chr(140), 'OE', $file);   // OE ligature
+//	$file = str_replace(chr(152), '~', $file);    // tilde accent
+//	$file = str_replace(chr(153), '(TM)', $file); // trademark ligature
+//	$file = str_replace(chr(154), 'sh', $file);   // s Hacek
+//	$file = str_replace(chr(155), '>', $file);    // right single guillemet
+//	$file = str_replace(chr(156), 'oe', $file);   // oe ligature
+//	$file = str_replace(chr(159), 'Y', $file);    // Y Dieresis
+// REPLACE MS WORD CHARACTERS	
